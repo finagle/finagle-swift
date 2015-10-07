@@ -1,5 +1,6 @@
 package com.twitter.finagle.exp.swift
 
+import com.facebook.swift.service.{ThriftException, ThriftMethod, ThriftService}
 import com.twitter.util.Future
 import scala.beans.BeanProperty
 import scala.annotation.meta._
